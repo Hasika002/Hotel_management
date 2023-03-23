@@ -101,6 +101,7 @@ if (choice=="checkin"):
                 bill=+stay*male*1000+stay*female*1000+stay*children*1000
                 print(bill)
             elif select=="genral":
+                #general added
                 stay=int(input("ENTER THE NO. OF DAYS OF STAY: "))
                 bill=+stay*male*2000+stay*female*2000+stay*children*2000
                 print(bill)
