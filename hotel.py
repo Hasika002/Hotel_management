@@ -10,7 +10,7 @@ if (choice=="checkin"):
     female=int(input("ENTER THE NO. OF ADULT FEMALES: "))
     children=int(input("ENTER THE NO. OF CHILDREN: "))
     total=male+female+children
-    # NO OF ROOMS
+    # NO OF ROOM
     ch=int(input("ENTER THE NO. OF ROOMS"))
     if (total==1) and (ch==1): 
         if ch>1:
