@@ -84,8 +84,6 @@ if (choice=="checkin"):
                 print(bill)
             else:
                 pass
-        else:
-            pass
 	elif (total>2) and (ch>=1): 
         bed=input("YOU WANT SINGLE BED OR DOUBLE:  ")
         if (bed=="single"):
