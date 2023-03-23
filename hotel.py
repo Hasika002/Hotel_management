@@ -63,6 +63,7 @@ if (choice=="checkin"):
             else:
                 pass
         elif (bed=="double"):
+            #bed requirements added
             print("""OUR SERVICES 
                      ECONOMICAL     800/- per night
                      GENRAL         1500/- per night
