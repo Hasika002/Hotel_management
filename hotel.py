@@ -74,6 +74,7 @@ if (choice=="checkin"):
                 stay=int(input("ENTER THE NO. OF DAYS OF STAY: "))
                 bill=+stay*800
                 print(bill)
+                #bill added
             elif select=="genral":
                 stay=int(input("ENTER THE NO. OF DAYS OF STAY: "))
                 bill=+stay*1500
