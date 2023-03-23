@@ -86,3 +86,49 @@ if (choice=="checkin"):
                 pass
         else:
             pass
+	elif (total>2) and (ch>=1): 
+        bed=input("YOU WANT SINGLE BED OR DOUBLE:  ")
+        if (bed=="single"):
+            print("""      ##OUR SERVICES##
+                     ECONOMICAL     1000/- per night,per person
+                     GENRAL         2000/- per night,per person
+                     PREMIUM        5000/- per night,per person
+                     """)
+            select=input("CHOOSE YOUR SERVICE: ")
+            select.lower()
+            if select=="economical":
+                stay=int(input("ENTER THE NO. OF DAYS OF STAY: "))
+                bill=+stay*male*1000+stay*female*1000+stay*children*1000
+                print(bill)
+            elif select=="genral":
+                stay=int(input("ENTER THE NO. OF DAYS OF STAY: "))
+                bill=+stay*male*2000+stay*female*2000+stay*children*2000
+                print(bill)
+            elif select=="premium":  
+                stay=int(input("ENTER THE NO. OF DAYS OF STAY: "))
+                bill=+stay*male*5000+stay*female*5000+stay*children*5000
+                print(bill)
+            else:
+                pass
+        elif (bed=="double"):
+            print("""OUR SERVICES 
+                     ECONOMICAL     800/- per night,per person
+                     GENRAL         1500/- per night,per person
+                     PREMIUM        3000/- per night,per person
+                     """)
+            select=input("CHOOSE YOUR SERVICE: ")
+            select.lower()
+            if select=="economical":
+                stay=int(input("ENTER THE NO. OF DAYS OF STAY: "))
+                bill=+stay*male*800+stay*female*800+stay*children*800
+                print(bill)
+            elif select=="genral":
+                stay=int(input("ENTER THE NO. OF DAYS OF STAY: "))
+                bill=+stay*male*1500+stay*female*1500+stay*children*1500
+                print(bill)
+            elif select=="premium":  
+                stay=int(input("ENTER THE NO. OF DAYS OF STAY: "))
+                bill=+stay*male*3000+stay*female*3000+stay*children*3000
+                print(bill)
+            else:
+                pass
